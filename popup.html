@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>London Taxi Fare Calculator</title>
+</head>
+<body>
+  <div class="container">
+    <img src="images/logo.png" alt="Logo" class="logo">
+
+    <h1>London Taxi Fare Calculator</h1>
+    <label for="distance">Distance (in miles):</label>
+    <input type="number" id="distance" step="0.1" placeholder="Enter distance">
+    
+    <label for="passengers">Number of passengers:</label>
+    <input type="number" id="passengers" placeholder="Enter passengers">
+
+    <button id="calculateButton">Calculate Fare</button>
+
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
